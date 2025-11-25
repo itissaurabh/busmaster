@@ -10,6 +10,7 @@ This folder contains comprehensive tutorials for understanding and modifying the
 | [02-code-walkthrough.md](02-code-walkthrough.md) | Detailed code walkthrough with key classes, interfaces, and data structures |
 | [03-creating-custom-adapter.md](03-creating-custom-adapter.md) | Step-by-step guide to create a custom CAN hardware adapter (like PCAN) |
 | [04-quick-reference.md](04-quick-reference.md) | Quick reference guide with code snippets and checklists |
+| [05-pcan-clone-interface-specification.md](05-pcan-clone-interface-specification.md) | **Complete interface specification for PCAN-clone adapters** |
 
 ## Getting Started
 
@@ -27,6 +28,9 @@ Start with [01-architecture-overview.md](01-architecture-overview.md) and then [
 
 ### I want to connect my custom CAN device
 Read [03-creating-custom-adapter.md](03-creating-custom-adapter.md) for a complete guide with example code.
+
+### I'm building a PCAN-clone or custom CAN hardware
+Start with [05-pcan-clone-interface-specification.md](05-pcan-clone-interface-specification.md) for the exact API your device must support to be compatible with BusMaster.
 
 ### I need a quick reminder about the API
 Check [04-quick-reference.md](04-quick-reference.md) for quick lookup of structures, methods, and return codes.
